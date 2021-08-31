@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import './App.css';
 
 const questionArray = [
@@ -30,8 +31,8 @@ export default class App extends Component {
 
     this.state = {
       notes: questionArray,
-      selectedNote: null,
-      hover: false,
+      selectedNote: questionArray[0],
+      appearHome: true,
     };
   }
 
@@ -56,19 +57,36 @@ export default class App extends Component {
   };
 
   render() {
+    const { appearHome } = this.state;
+    const id = this.state.selectedNote;
     return (
       <div className='app'>
         <h1>Typical Javascript Coding Question</h1>
-
-        <div className='button-container'>
+        <CSSTransition
+          in={appearHome}
+          appear={true}
+          timeout={300}
+          classNames='fade'
+        >
           <button
             onClick={this.handleClick}
             id='myInput'
             value={this.state.selectedNote}
           >
-            {this.state.selectedNote}
+            <TransitionGroup>
+              <CSSTransition
+                key={id}
+                in={appearHome}
+                appear={true}
+                timeout={500}
+                classNames='fade'
+              >
+                <p>{this.state.selectedNote}</p>
+              </CSSTransition>
+            </TransitionGroup>
           </button>
-        </div>
+        </CSSTransition>
+
         <button onClick={this.myFunction} className='copy'>
           copy
         </button>
