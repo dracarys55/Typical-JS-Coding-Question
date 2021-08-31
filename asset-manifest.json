@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/Typical-JS-Coding-Question/static/css/main.d63d3e09.chunk.css",
-    "main.js": "/Typical-JS-Coding-Question/static/js/main.5940e60e.chunk.js",
-    "main.js.map": "/Typical-JS-Coding-Question/static/js/main.5940e60e.chunk.js.map",
-    "runtime-main.js": "/Typical-JS-Coding-Question/static/js/runtime-main.4dcac182.js",
-    "runtime-main.js.map": "/Typical-JS-Coding-Question/static/js/runtime-main.4dcac182.js.map",
-    "static/js/2.1cf9f663.chunk.js": "/Typical-JS-Coding-Question/static/js/2.1cf9f663.chunk.js",
-    "static/js/2.1cf9f663.chunk.js.map": "/Typical-JS-Coding-Question/static/js/2.1cf9f663.chunk.js.map",
-    "static/js/3.9a1e8259.chunk.js": "/Typical-JS-Coding-Question/static/js/3.9a1e8259.chunk.js",
-    "static/js/3.9a1e8259.chunk.js.map": "/Typical-JS-Coding-Question/static/js/3.9a1e8259.chunk.js.map",
+    "main.css": "/Typical-JS-Coding-Question/static/css/main.02aef7e7.chunk.css",
+    "main.js": "/Typical-JS-Coding-Question/static/js/main.af4bb89c.chunk.js",
+    "main.js.map": "/Typical-JS-Coding-Question/static/js/main.af4bb89c.chunk.js.map",
+    "runtime-main.js": "/Typical-JS-Coding-Question/static/js/runtime-main.61ca153a.js",
+    "runtime-main.js.map": "/Typical-JS-Coding-Question/static/js/runtime-main.61ca153a.js.map",
+    "static/js/2.9bbfb3c4.chunk.js": "/Typical-JS-Coding-Question/static/js/2.9bbfb3c4.chunk.js",
+    "static/js/2.9bbfb3c4.chunk.js.map": "/Typical-JS-Coding-Question/static/js/2.9bbfb3c4.chunk.js.map",
+    "static/js/3.08c661f6.chunk.js": "/Typical-JS-Coding-Question/static/js/3.08c661f6.chunk.js",
+    "static/js/3.08c661f6.chunk.js.map": "/Typical-JS-Coding-Question/static/js/3.08c661f6.chunk.js.map",
     "index.html": "/Typical-JS-Coding-Question/index.html",
-    "static/css/main.d63d3e09.chunk.css.map": "/Typical-JS-Coding-Question/static/css/main.d63d3e09.chunk.css.map",
-    "static/js/2.1cf9f663.chunk.js.LICENSE.txt": "/Typical-JS-Coding-Question/static/js/2.1cf9f663.chunk.js.LICENSE.txt"
+    "static/css/main.02aef7e7.chunk.css.map": "/Typical-JS-Coding-Question/static/css/main.02aef7e7.chunk.css.map",
+    "static/js/2.9bbfb3c4.chunk.js.LICENSE.txt": "/Typical-JS-Coding-Question/static/js/2.9bbfb3c4.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.4dcac182.js",
-    "static/js/2.1cf9f663.chunk.js",
-    "static/css/main.d63d3e09.chunk.css",
-    "static/js/main.5940e60e.chunk.js"
+    "static/js/runtime-main.61ca153a.js",
+    "static/js/2.9bbfb3c4.chunk.js",
+    "static/css/main.02aef7e7.chunk.css",
+    "static/js/main.af4bb89c.chunk.js"
   ]
 }
